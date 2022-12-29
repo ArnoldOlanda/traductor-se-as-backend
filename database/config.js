@@ -1,3 +1,5 @@
+// POSTGRE_URI=postgres://admin:EsQXLMmSNZzq1J1N3yF8HOUrk80VQdXO@dpg-cem7fah4reb3865p3mog-a.oregon-postgres.render.com/traductor
+
 const { Pool } = require('pg')
 
 const pool = new Pool({

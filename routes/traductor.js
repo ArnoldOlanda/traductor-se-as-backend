@@ -12,6 +12,7 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
 
     const {id} = req.params;
+    
     const {rows} = await query(`select * from public.traducciones where id=${ Number(id) }`)
 
     res.json(rows)
